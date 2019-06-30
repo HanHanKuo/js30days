@@ -13,6 +13,7 @@ What is DOM? The DOM is a kind of model, and the full name equal to Document Obj
 In this example, the window interface represents a window containing a DOM document. `playSound` plays the role of listener, once the `keydown`[2] event happend to use `window.addEventlistener`
 
 **Arrow funtion and `this`**
+
 `key => key.addEventListener('transitionend', removeTransition)`
 Original function we would type
 
@@ -31,6 +32,7 @@ var greeting = () => {('Hello world!')}
 Also, we would save the `return` if you just wanna return the value.
 
 `this.classList.remove('playing');`
+
 In Arrow fuction, this means won't be change when define the object.
 
 ## Reference
